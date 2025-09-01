@@ -1,0 +1,42 @@
+------------------Operators in Java------------------
+>> Symbols that tell compiler to perform some operation
+
+example :
+        sum = a + b ; -> expression
+        // a and b are "operands"
+        // + is the "operator"
+
+-----------------Types of Operators----------------
+
+1. Arithmetic Operators (Binary/Unary)
+
+    a. Binary: (requires 2 operands)
+        +, -, *, /, %
+    
+    b. Unary: (requires 1 operand only)
+        ++ (increment operator), -- (decrement operator) 
+
+                -----(Subtypes)-----
+
+                i. Pre increment (++a): first value change then used
+                ii. Post increment (a++): first value use then changed       
+
+
+2. Relational Opertators
+
+    ( ==, !=, >, <, >=, <= )
+
+3. Logical Operators
+
+    ( &&(and), ||(or), !(not) )
+
+4. Bitwise Opertators
+    (Bit Manupilation re padhiba )
+
+5. Assignment Operators
+
+    (==, +=, -=, *=, /=)
+
+    example :
+        a = a + 5;
+        a += 5 ; (same as above but little bit faster)
