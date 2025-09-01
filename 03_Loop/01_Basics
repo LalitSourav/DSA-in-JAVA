@@ -1,0 +1,17 @@
+-------------While Loop----------------
+
+while(condition){
+    //do something
+}
+
+--------------for Loop-----------------
+
+for(initialisation; condition; updation) {
+    //do something
+}
+
+--------------do while loop---------------
+
+do{
+    //do something
+}while(condition);
