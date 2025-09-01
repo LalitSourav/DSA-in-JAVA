@@ -1,0 +1,36 @@
+
+
+
+
+------------------PRIMITIVE-------------------
+byte // only from -128 to 127 can be store (total 256 numbers)
+    MEMORY: 1 byte
+short // number can be stored
+    MEMORY: 2 bytes
+char // single character
+    MEMORY: 2 bytes
+    range: ['a' to 'z', 'A' to 'Z', '@', '%', ',' (special characters are also comes under this catagory)]
+boolean // true or false    
+    MEMORY: 1 bytes
+int // any number
+    MEMORY: 4 bytes
+    range: -2 billion to 2 billion
+long // large num   
+    MEMORY: 8 bytes
+float // decimal
+    specify karite haba ki eeita float nahele java sei value ku default re double nei jiba !
+    ex: 3.14f  //eeita float
+        3.14  //eeita double
+    MEMORY: 4 bytes
+double
+    MEMORY: 8 bytes
+    decimal is used
+
+
+-----------------NON-PRIMITIVE---------------
+
+String
+Array
+Class
+Object
+Interface

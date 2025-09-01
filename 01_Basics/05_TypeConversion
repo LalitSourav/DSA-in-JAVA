@@ -1,0 +1,39 @@
+Type Conversion is also called 
+ implicit Conversion 
+ widening Conversion   
+ 
+    automatically hue eeita
+
+
+Conversion can happen when:
+    a. type comatible 
+        ex : int to float possible 
+            int to boolean not possible
+
+    b. destination type > source type 
+        byte -> short -> int -> float -> long -> double
+        byte can be convert to any type
+        int can be convert to float or long
+            but vice versa not possible 
+                it is known as lossy convertion
+                as some data is lost during convertion
+                and it is known as Type Casting
+
+----------------Type Casting-----------------
+    Explicite (done by us not automatically)
+    narrowing Conversion
+
+    ex :
+    float a = 25.12f;
+    int b = a ;//wrong, error will occur
+    int b = (int)a; // right
+
+    // char to int is possible
+     a= 97
+     b= 98
+     .
+     .
+     .
+    
+
+        
